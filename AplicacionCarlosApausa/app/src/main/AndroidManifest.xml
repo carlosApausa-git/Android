@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplicacioncarlosapausa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logochef"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity5Carrito"></activity>
+        <activity android:name=".Activity25Bebidas" />
+        <activity android:name=".Activity24Postres" />
+        <activity android:name=".Activity23Segundos" />
+        <activity android:name=".Activity22Primeros" />
+        <activity android:name=".Activity31Galeria" />
+        <activity android:name=".Activity21Menus" />
+        <activity android:name=".ActivityContacto" />
+        <activity android:name=".Activity4Ubicacion" />
+        <activity android:name=".Activity2Comida" />
+        <activity android:name=".Activity1Principal" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

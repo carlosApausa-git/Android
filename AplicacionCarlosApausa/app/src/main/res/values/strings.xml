@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Aplicacion Carlos Apausa</string>
+    <string name="checkLoQuiero">Lo quiero</string>
+    <string name="ATRAS">ATRAS</string>
+    <string name="AniadirAlCarrito">Añadir al carrito</string>
+    <string name="IngredientesSopaVerduras">Ingredientes: Puerro, ajo, ramas de apio, zanahoria, calabacín, coliflor, col, vino blanco, caldo y aceite de oliva.</string>
+    <string name="IngredientesEnsaladaFruta">Ingredientes: Banana, naranjas, piña, kiwi, manzana, uva, pera, sandía, mora negra, mora roja.</string>
+    <string name="IngredientesGazpacho">Ingredientes: tomates, pimiento, pepino, cebolleta, ajo, pan, aceite, vinagre, sal y un toque de pimienta.</string>
+    <string name="IngredientesMigas">Ingredientes: Chorizo, panceta, pan, ajo, Pimentón, huevo frito, butifarra, aceite de oliva y sal.</string>
+    <string name="IngredientesEnsaladaPiniones">Ingredientes: Piñones, rúcula, tomatitos, mozzarella, aguacate, arándanos, pasas y queso de cabra.</string>
+    <string name="IngredientesSopaCocido">Ingredientes: zancarrón, muslo de gallina, tocino, garbanzos, cebolla, zanahoria, puerro, fideos, aceite y sal.</string>
+    <string name="IngredientesPureDeVerduras">Ingredientes: puerro, cebolleta, calabacín, zanahoria, hojas de espinacas y de acelgas y patata.</string>
+    <string name="IngredientesJudias">Ingredientes: Judías del Barco, jamón serrano, tocino, rabo de cerdo, pata de cerdo, oreja de cerdo, ajo, laurel y sal.</string>
+    <string name="MENUuno">MENU 1</string>
+    <string name="MENUdos">MENU 2</string>
+    <string name="MENUtres">MENU 3</string>
+    <string name="MENUcuatro">MENU 4</string>
+    <string name="DescripcionHuevosFritos">Ingredientes: Huevos de gallina de corral fritos, acompañados con chorizo iberico y patatas fritas.</string>
+    <string name="DescripcionFileteTernera">Ingredientes: Filete de ternera avileña en su salsa, servido con guarnición de patatas fritas</string>
+    <string name="DescripcionSalmonAhumado">Ingredientes: Delicioso salmon ahumado acompañado co una salsa alioli casera</string>
+    <string name="DescripcionSecreto">Ingredientes: Secreto iberico acompañado con una ración de patatas fritas y una deliciosa salsa roquefort</string>
+    <string name="DesctipcionChuleton">Ingredientes: Autentico chuleton de vacas avileñas acompañado con patatas fritas</string>
+    <string name="DescripcionPatatasRevolconas">Ingredientes: Patatas, ajo, laurel, pimentón dulce, pimentón picante, panceta adobada, aceite de oliva, sal.</string>
+</resources>
