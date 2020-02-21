@@ -17,8 +17,6 @@ import android.widget.Toast;
 public class Activity21Menus extends AppCompatActivity {
     private Button bMenu1, bMenu2, bMenu3, bMenu4;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
