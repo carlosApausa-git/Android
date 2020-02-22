@@ -106,8 +106,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                     android:onClick="cambioPantallaPrincipal"
-                    android:text="@string/ATRAS" />
+                    android:text="@string/ATRAS"
+                    android:textColor="@color/colorPrimary" />
 
             </LinearLayout>
         </ScrollView>
