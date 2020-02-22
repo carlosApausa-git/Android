@@ -11,26 +11,50 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tvMostrar"
+        <ImageView
+            android:id="@+id/imageView48"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="60" />
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/zlogob" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvMostrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp" />
+            </LinearLayout>
+        </ScrollView>
 
         <Button
             android:id="@+id/button15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="5"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
             android:onClick="realizarPedido"
-            android:text="Realizar pedido" />
+            android:text="Realizar pedido"
+            android:textColor="@color/colorPrimary" />
 
         <Button
             android:id="@+id/bCancelarPedido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="5"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
             android:onClick="eliminarPedido"
-            android:text="cancelar pedido" />
+            android:text="cancelar pedido"
+            android:textColor="@color/colorPrimary" />
     </LinearLayout>
 </LinearLayout>
