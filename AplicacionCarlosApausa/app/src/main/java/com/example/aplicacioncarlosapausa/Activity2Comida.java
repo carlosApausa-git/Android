@@ -41,7 +41,7 @@ public class Activity2Comida extends AppCompatActivity {
     }
     public void cambioPantallaUbicacion(View vista) {
 
-        Intent siguiente = new Intent(this, Activity4Ubicacion.class);
+        Intent siguiente = new Intent(this, ActivityMaps.class);
 
         startActivity(siguiente);
     }
