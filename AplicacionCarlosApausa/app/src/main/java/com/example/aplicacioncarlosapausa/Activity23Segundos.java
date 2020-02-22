@@ -60,7 +60,7 @@ public class Activity23Segundos extends AppCompatActivity {
     }
     public void cambioPantallaUbicacion(View vista) {
 
-        Intent siguiente = new Intent(this, Activity4Ubicacion.class);
+        Intent siguiente = new Intent(this, ActivityMaps.class);
 
         startActivity(siguiente);
     }
@@ -147,56 +147,56 @@ public class Activity23Segundos extends AppCompatActivity {
     public void addCarritoHuevosFritos(View view){
         SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editorMenu = datosMenus.edit();
-        editorMenu.putString("HuevosFritos", pedidoSegundos +"\nHuevosFritos ..................... 8€");
+        editorMenu.putString("HuevosFritos", pedidoSegundos +"\nHuevos fritos ................................ 6€");
         editorMenu.apply();
         Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
     }
     public void addCarritoFileteTernera(View view){
         SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editorMenu = datosMenus.edit();
-        editorMenu.putString("FileteTernera", pedidoSegundos +"\nFileteTernera ..................... 8€");
+        editorMenu.putString("FileteTernera", pedidoSegundos +"\nFilete de ternera ........................... 6€");
         editorMenu.apply();
         Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
     }
     public void addCarritoSalmon(View view){
         SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editorMenu = datosMenus.edit();
-        editorMenu.putString("Salmon", pedidoSegundos +"\nSalmon ..................... 8€");
+        editorMenu.putString("Salmon", pedidoSegundos +"\nSalmon ......................................... 8€");
         editorMenu.apply();
         Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
     }
     public void addCarritoSecreto(View view){
         SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editorMenu = datosMenus.edit();
-        editorMenu.putString("Secreto", pedidoSegundos +"\nSecreto ..................... 8€");
+        editorMenu.putString("Secreto", pedidoSegundos +"\nSecreto ......................................... 8.50€");
         editorMenu.apply();
         Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
     }
     public void addCarritoChuleton(View view){
         SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editorMenu = datosMenus.edit();
-        editorMenu.putString("Chuleton", pedidoSegundos +"\nChuleton ..................... 8€");
+        editorMenu.putString("Chuleton", pedidoSegundos +"\nChuleton ....................................... 14€");
         editorMenu.apply();
         Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
     }
     public void addCarritoPatatasRevolconas(View view){
         SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editorMenu = datosMenus.edit();
-        editorMenu.putString("PatatasRevolconas", pedidoSegundos +"\nPatatasRevolconas ..................... 8€");
+        editorMenu.putString("PatatasRevolconas", pedidoSegundos +"\nPatatas revolconas ...................... 9€");
         editorMenu.apply();
         Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
     }
     public void addCarritoFileteLomo(View view){
         SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editorMenu = datosMenus.edit();
-        editorMenu.putString("FileteLomo", pedidoSegundos +"\nFileteLomo ..................... 8€");
+        editorMenu.putString("FileteLomo", pedidoSegundos +"\nFilete de lomo ............................... 6€");
         editorMenu.apply();
         Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
     }
     public void addCarritoMacarrones(View view){
         SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editorMenu = datosMenus.edit();
-        editorMenu.putString("Macarrones", pedidoSegundos +"\nMacarrones ..................... 8€");
+        editorMenu.putString("Macarrones", pedidoSegundos +"\nMacarrones .................................. 6€");
         editorMenu.apply();
         Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
     }
