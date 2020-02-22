@@ -46,7 +46,7 @@ public class Activity5Carrito extends AppCompatActivity {
     }
     public void cambioPantallaUbicacion(View vista) {
 
-        Intent siguiente = new Intent(this, Activity4Ubicacion.class);
+        Intent siguiente = new Intent(this, ActivityMaps.class);
 
         startActivity(siguiente);
     }
@@ -207,6 +207,38 @@ public class Activity5Carrito extends AppCompatActivity {
         tvMostrar.setText(tvMostrar.getText().toString()+PatatasRevolconas);
         tvMostrar.setText(tvMostrar.getText().toString()+FileteLomo);
         tvMostrar.setText(tvMostrar.getText().toString()+Macarrones);
+
+        //datos Activity Postres
+        String HeladoFresa, Flan, TartaZanahoria, Sandia, MouseLimon;
+        HeladoFresa= datosMenus.getString("HeladoFresa", "");
+        Flan= datosMenus.getString("FlanQueso", "");
+        TartaZanahoria= datosMenus.getString("TartaZanahoria", "");
+        Sandia= datosMenus.getString("Sandia", "");
+        MouseLimon= datosMenus.getString("MousseLimon", "");
+        tvMostrar.setText(tvMostrar.getText().toString()+HeladoFresa);
+        tvMostrar.setText(tvMostrar.getText().toString()+Flan);
+        tvMostrar.setText(tvMostrar.getText().toString()+TartaZanahoria);
+        tvMostrar.setText(tvMostrar.getText().toString()+Sandia);
+        tvMostrar.setText(tvMostrar.getText().toString()+MouseLimon);
+
+        //datos Activity BEBIDAS
+        String Agua, Cerveza, CocaCola, Aquarius, FantaNaranja, FantaLimon, Nestea, Sprite;
+        Agua= datosMenus.getString("Agua", "");
+        Cerveza= datosMenus.getString("Cerveza", "");
+        CocaCola= datosMenus.getString("CocaCola", "");
+        Aquarius= datosMenus.getString("Aquarius", "");
+        FantaNaranja= datosMenus.getString("FantaNaranja", "");
+        FantaLimon= datosMenus.getString("FantaLimon", "");
+        Nestea= datosMenus.getString("Nestea", "");
+        Sprite= datosMenus.getString("Sprite", "");
+        tvMostrar.setText(tvMostrar.getText().toString()+Agua);
+        tvMostrar.setText(tvMostrar.getText().toString()+Cerveza);
+        tvMostrar.setText(tvMostrar.getText().toString()+CocaCola);
+        tvMostrar.setText(tvMostrar.getText().toString()+Aquarius);
+        tvMostrar.setText(tvMostrar.getText().toString()+FantaNaranja);
+        tvMostrar.setText(tvMostrar.getText().toString()+FantaLimon);
+        tvMostrar.setText(tvMostrar.getText().toString()+Nestea);
+        tvMostrar.setText(tvMostrar.getText().toString()+Sprite);
     }
     public void eliminarPedido(View view){
       tvMostrar.setText("Tu carrito esta vacio");
@@ -232,9 +264,26 @@ public class Activity5Carrito extends AppCompatActivity {
         editorMenu.putString("PatatasRevolconas", "");
         editorMenu.putString("FileteLomo", "");
         editorMenu.putString("Macarrones", "");
+        editorMenu.putString("HeladoFresa", "");
+        editorMenu.putString("FlanQueso", "");
+        editorMenu.putString("TartaZanahoria", "");
+        editorMenu.putString("Sandia", "");
+        editorMenu.putString("MousseLimon", "");
+
+        editorMenu.putString("Agua", "");
+        editorMenu.putString("Cerveza", "");
+        editorMenu.putString("CocaCola", "");
+        editorMenu.putString("Aquarius", "");
+        editorMenu.putString("FantaNaranja", "");
+        editorMenu.putString("FantaLimon", "");
+        editorMenu.putString("Nestea", "");
+        editorMenu.putString("Sprite", "");
         editorMenu.apply();
+
+
     }
-    public void realizarPedido(View view){
-        Toast.makeText(this,"PEDIDO REALIZADO", Toast.LENGTH_SHORT).show();
+    public void realizarPedido(View view) {
+        Toast.makeText(this, "PEDIDO REALIZADO", Toast.LENGTH_SHORT).show();
+        eliminarPedido(view);
     }
 }
