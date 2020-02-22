@@ -21,6 +21,13 @@
     <string name="DescripcionSecreto">Ingredientes: Secreto iberico acompañado con una ración de patatas fritas y una deliciosa salsa roquefort</string>
     <string name="DesctipcionChuleton">Ingredientes: Autentico chuleton de vacas avileñas acompañado con patatas fritas</string>
     <string name="DescripcionPatatasRevolconas">Ingredientes: Patatas, ajo, laurel, pimentón dulce, pimentón picante, panceta adobada, aceite de oliva, sal.</string>
-    <string name="DesctipcionChuleton">Ingredientes: Autentico chuleton de vacas avileñas acompañado con patatas fritas</string>
-
+    <string name="verCarrito">VER CARRITO</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="DescripcionFileteLomo">Ingredientes: Filetes de lomo iberico a la plancha acompañados con patatas fritas.</string>
+    <string name="DescripcionMacarrones">Ingredientes: Macarrones, tomate frito, salchichas, bacon y queso.</string>
+    <string name="PostreHelado">Helado de fresa casero con pequeños trozos de fresa acompañado con nata y sirope de fresa.</string>
+    <string name="PostreFlan">Postre de queso casero acompañado con nata.</string>
+    <string name="PostreTartaZanahoria">Esponjoso bizcocho de zanahoria, nata montada,  mantequilla y azucar en polvo.</string>
+    <string name="PostreSandia">Sandia sulce, la mejor opcion para refrescarse.</string>
+    <string name="PostreMouseLimon">Cremosa mouse de limon batida, acompañada con sirope de limon.</string>
 </resources>
