@@ -151,7 +151,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="8dp"
                             android:layout_weight="1"
-                            android:text="Pan y bebido incluidos" />
+                            android:text="Pan y bebida incluidos" />
 
                         <Button
                             android:id="@+id/bMenu2"
