@@ -53,14 +53,17 @@
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="8dp"
                             android:layout_weight="2"
-                            android:text="Descripcion Descripcion Descripcion Descripcion Descripcion" />
+                            android:text="@string/PostreHelado" />
 
                         <Button
-                            android:id="@+id/button31"
+                            android:id="@+id/bHeladoFresa"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoHeladoFresa"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -98,14 +101,17 @@
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="8dp"
                             android:layout_weight="2"
-                            android:text="Descripcion Descripcion Descripcion Descripcion Descripcion" />
+                            android:text="@string/PostreFlan" />
 
                         <Button
-                            android:id="@+id/button32"
+                            android:id="@+id/bFlan"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoFlanQueso"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -143,14 +149,17 @@
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="8dp"
                             android:layout_weight="2"
-                            android:text="Descripcion Descripcion Descripcion Descripcion" />
+                            android:text="@string/PostreTartaZanahoria" />
 
                         <Button
-                            android:id="@+id/button33"
+                            android:id="@+id/bTartaZanahoria"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoTartaZanahoria"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -188,14 +197,17 @@
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="8dp"
                             android:layout_weight="2"
-                            android:text="Descripcion Descripcion Descripcion Descripcion" />
+                            android:text="@string/PostreSandia" />
 
                         <Button
-                            android:id="@+id/button34"
+                            android:id="@+id/bSandia"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoSandia"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -233,14 +245,17 @@
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="8dp"
                             android:layout_weight="2"
-                            android:text="Descripcion Descripcion DescripcionDescripcion" />
+                            android:text="@string/PostreMouseLimon" />
 
                         <Button
-                            android:id="@+id/button35"
+                            android:id="@+id/bMouseLimon"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoMousseLimon"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -255,15 +270,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/AniadirAlCarrito" />
+                        android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                        android:onClick="cambioPantallaCarrito"
+                        android:text="@string/verCarrito"
+                        android:textColor="@color/colorPrimary" />
 
                     <Button
                         android:id="@+id/button10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                         android:onClick="cambioPantallaComida"
-                        android:text="@string/ATRAS" />
+                        android:text="@string/ATRAS"
+                        android:textColor="@color/colorPrimary" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
