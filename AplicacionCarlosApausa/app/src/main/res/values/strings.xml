@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Aplicacion Carlos Apausa</string>
+    <string name="app_name">Aplicación Carlos Apausa</string>
     <string name="checkLoQuiero">Lo quiero</string>
-    <string name="ATRAS">ATRAS</string>
+    <string name="ATRAS">ATRÁS</string>
     <string name="AniadirAlCarrito">Añadir al carrito</string>
     <string name="IngredientesSopaVerduras">Ingredientes: Puerro, ajo, ramas de apio, zanahoria, calabacín, coliflor, col, vino blanco, caldo y aceite de oliva.</string>
     <string name="IngredientesEnsaladaFruta">Ingredientes: Banana, naranjas, piña, kiwi, manzana, uva, pera, sandía, mora negra, mora roja.</string>
@@ -16,18 +16,18 @@
     <string name="MENUtres">MENU 3</string>
     <string name="MENUcuatro">MENU 4</string>
     <string name="DescripcionHuevosFritos">Ingredientes: Huevos de gallina de corral fritos, acompañados con chorizo iberico y patatas fritas.</string>
-    <string name="DescripcionFileteTernera">Ingredientes: Filete de ternera avileña en su salsa, servido con guarnición de patatas fritas</string>
-    <string name="DescripcionSalmonAhumado">Ingredientes: Delicioso salmon ahumado acompañado co una salsa alioli casera</string>
-    <string name="DescripcionSecreto">Ingredientes: Secreto iberico acompañado con una ración de patatas fritas y una deliciosa salsa roquefort</string>
-    <string name="DesctipcionChuleton">Ingredientes: Autentico chuleton de vacas avileñas acompañado con patatas fritas</string>
+    <string name="DescripcionFileteTernera">Ingredientes: Filete de ternera avileña en su salsa, servido con guarnición de patatas fritas.</string>
+    <string name="DescripcionSalmonAhumado">Ingredientes: Delicioso salmon ahumado acompañado co una salsa alioli casera.</string>
+    <string name="DescripcionSecreto">Ingredientes: Secreto ibérico acompañado con una ración de patatas fritas y una deliciosa salsa roquefort.</string>
+    <string name="DesctipcionChuleton">Ingredientes: Autentico chuleton de vacas avileñas acompañado con patatas fritas.</string>
     <string name="DescripcionPatatasRevolconas">Ingredientes: Patatas, ajo, laurel, pimentón dulce, pimentón picante, panceta adobada, aceite de oliva, sal.</string>
     <string name="verCarrito">VER CARRITO</string>
     <string name="title_activity_maps">Map</string>
-    <string name="DescripcionFileteLomo">Ingredientes: Filetes de lomo iberico a la plancha acompañados con patatas fritas.</string>
+    <string name="DescripcionFileteLomo">Ingredientes: Filetes de lomo ibérico a la plancha acompañados con patatas fritas.</string>
     <string name="DescripcionMacarrones">Ingredientes: Macarrones, tomate frito, salchichas, bacon y queso.</string>
     <string name="PostreHelado">Helado de fresa casero con pequeños trozos de fresa acompañado con nata y sirope de fresa.</string>
     <string name="PostreFlan">Postre de queso casero acompañado con nata.</string>
     <string name="PostreTartaZanahoria">Esponjoso bizcocho de zanahoria, nata montada,  mantequilla y azucar en polvo.</string>
-    <string name="PostreSandia">Sandia sulce, la mejor opcion para refrescarse.</string>
-    <string name="PostreMouseLimon">Cremosa mouse de limon batida, acompañada con sirope de limon.</string>
+    <string name="PostreSandia">Sandía dulce, la mejor opción para refrescarse.</string>
+    <string name="PostreMouseLimon">Cremosa mouse de limón batida, acompañada con sirope de limón.</string>
 </resources>
