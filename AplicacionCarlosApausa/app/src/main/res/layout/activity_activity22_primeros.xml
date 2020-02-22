@@ -380,7 +380,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="JUDIAS DEL BARCO"
+                            android:text="JUDÍAS DEL BARCO"
                             android:textAlignment="center" />
 
                         <TextView
