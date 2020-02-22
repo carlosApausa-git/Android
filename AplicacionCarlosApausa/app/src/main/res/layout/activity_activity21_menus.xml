@@ -90,8 +90,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoMenu1"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
 
@@ -156,8 +158,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoMenu2"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
 
@@ -238,8 +242,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoMenu3"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -306,8 +312,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoMenu4"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
 
@@ -331,16 +339,20 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="80"
-                        android:onClick="addCarrito"
-                        android:text="@string/AniadirAlCarrito" />
+                        android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                        android:onClick="cambioPantallaCarrito"
+                        android:text="@string/verCarrito"
+                        android:textColor="@color/colorPrimary" />
 
                     <Button
                         android:id="@+id/button4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="20"
+                        android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                         android:onClick="cambioPantallaComida"
-                        android:text="@string/ATRAS" />
+                        android:text="@string/ATRAS"
+                        android:textColor="@color/colorPrimary" />
                 </LinearLayout>
 
             </LinearLayout>
