@@ -3,7 +3,9 @@ package com.example.aplicacioncarlosapausa;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -47,7 +49,7 @@ public class Activity25Bebidas extends AppCompatActivity {
     }
     public void cambioPantallaUbicacion(View vista) {
 
-        Intent siguiente = new Intent(this, Activity4Ubicacion.class);
+        Intent siguiente = new Intent(this, ActivityMaps.class);
 
         startActivity(siguiente);
     }
@@ -127,5 +129,63 @@ public class Activity25Bebidas extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+    //AÑADIR AL CARRITO
+    public String pedidoBebidas= "";
+    public void addCarritoAgua(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("Agua", pedidoBebidas +"\nAgua .............................................. 1.50€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoCerveza(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("Cerveza", pedidoBebidas +"\nCerveza ......................................... 1.20€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoCocaCola(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("CocaCola", pedidoBebidas +"\nCocaCola ....................................... 2€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoAquarius(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("Aquarius", pedidoBebidas +"\nAquarius ........................................ 2€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoFantaNaranja(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("FantaNaranja", pedidoBebidas +"\nFanta de naranja ........................... 2€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoFantaLimon(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("FantaLimon", pedidoBebidas +"\nFanta de limon .............................. 2€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoNestea(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("Nestea", pedidoBebidas +"\nNestea ........................................... 2€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoSprite(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("Sprite", pedidoBebidas +"\nSprite ............................................. 2€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
     }
 }
