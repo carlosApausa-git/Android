@@ -38,10 +38,13 @@
                             app:srcCompat="@drawable/bebidaagua" />
 
                         <Button
-                            android:id="@+id/button36"
+                            android:id="@+id/bAgua"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoAgua"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                         <ImageView
                             android:id="@+id/imageView42"
@@ -50,10 +53,13 @@
                             app:srcCompat="@drawable/bebidacocacola" />
 
                         <Button
-                            android:id="@+id/button37"
+                            android:id="@+id/bCocaCola"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoCocaCola"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                         <ImageView
                             android:id="@+id/imageView46"
@@ -62,22 +68,29 @@
                             app:srcCompat="@drawable/bebidafantanaranja" />
 
                         <Button
-                            android:id="@+id/button38"
+                            android:id="@+id/bFantaNaranja"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoFantaNaranja"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                         <ImageView
                             android:id="@+id/imageView47"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
+                            android:onClick="addCarritoFantaNaranja"
                             app:srcCompat="@drawable/bebidanestea" />
 
                         <Button
-                            android:id="@+id/button39"
+                            android:id="@+id/bNestea"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoNestea"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
 
@@ -94,10 +107,13 @@
                             app:srcCompat="@drawable/bebidacerveza" />
 
                         <Button
-                            android:id="@+id/button40"
+                            android:id="@+id/bCerveza"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoCerveza"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                         <ImageView
                             android:id="@+id/imageView43"
@@ -106,10 +122,13 @@
                             app:srcCompat="@drawable/bebidaaquarius" />
 
                         <Button
-                            android:id="@+id/button41"
+                            android:id="@+id/bAquarius"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoAquarius"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                         <ImageView
                             android:id="@+id/imageView44"
@@ -118,10 +137,13 @@
                             app:srcCompat="@drawable/bebidafantalimon" />
 
                         <Button
-                            android:id="@+id/button42"
+                            android:id="@+id/bFantaLimon"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoFantaLimon"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                         <ImageView
                             android:id="@+id/imageView45"
@@ -130,10 +152,13 @@
                             app:srcCompat="@drawable/bebidasprite" />
 
                         <Button
-                            android:id="@+id/button43"
+                            android:id="@+id/bSprite"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                            android:onClick="addCarritoSprite"
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -148,15 +173,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/AniadirAlCarrito" />
+                        android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                        android:onClick="cambioPantallaCarrito"
+                        android:text="@string/verCarrito"
+                        android:textColor="@color/colorPrimary" />
 
                     <Button
                         android:id="@+id/button13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                         android:onClick="cambioPantallaComida"
-                        android:text="@string/ATRAS" />
+                        android:text="@string/ATRAS"
+                        android:textColor="@color/colorPrimary" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
