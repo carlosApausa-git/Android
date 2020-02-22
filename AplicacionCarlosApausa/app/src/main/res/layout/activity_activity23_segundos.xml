@@ -60,8 +60,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoHuevosFritos"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -106,8 +108,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoFileteTernera"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -152,8 +156,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoSalmon"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -198,8 +204,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoSecreto"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -244,8 +252,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoChuleton"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -290,8 +300,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoPatatasRevolconas"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -319,6 +331,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:text="FILETES DE LOMO"
                             android:textAlignment="center" />
 
@@ -329,15 +342,17 @@
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="8dp"
                             android:layout_weight="2"
-                            android:text="bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla " />
+                            android:text="@string/DescripcionFileteLomo" />
 
                         <Button
                             android:id="@+id/bFileteLomo"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoFileteLomo"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -365,6 +380,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:text="MACARRONES"
                             android:textAlignment="center" />
 
@@ -375,15 +391,17 @@
                             android:layout_marginLeft="8dp"
                             android:layout_marginRight="8dp"
                             android:layout_weight="2"
-                            android:text="bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla " />
+                            android:text="@string/DescripcionMacarrones" />
 
                         <Button
                             android:id="@+id/bMacarrones"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"
                             android:layout_weight="1"
+                            android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                             android:onClick="addCarritoMacarrones"
-                            android:text="@string/AniadirAlCarrito" />
+                            android:text="@string/AniadirAlCarrito"
+                            android:textColor="@color/colorPrimary" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -398,15 +416,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/AniadirAlCarrito" />
+                        android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+                        android:onClick="cambioPantallaCarrito"
+                        android:text="@string/verCarrito"
+                        android:textColor="@color/colorPrimary" />
 
                     <Button
                         android:id="@+id/button8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
                         android:onClick="cambioPantallaComida"
-                        android:text="@string/ATRAS" />
+                        android:text="@string/ATRAS"
+                        android:textColor="@color/colorPrimary" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
