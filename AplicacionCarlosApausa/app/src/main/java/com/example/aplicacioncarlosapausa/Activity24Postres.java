@@ -3,19 +3,27 @@ package com.example.aplicacioncarlosapausa;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class Activity24Postres extends AppCompatActivity {
-
+    private Button bHeladoFresa, bFlan, bTartaZanahoria, bSandia, bMouseLimon;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activity24_postres);
+        bHeladoFresa = (Button)findViewById(R.id.bHeladoFresa);
+        bFlan = (Button)findViewById(R.id.bHeladoFresa);
+        bTartaZanahoria = (Button)findViewById(R.id.bHeladoFresa);
+        bSandia = (Button)findViewById(R.id.bHeladoFresa);
+        bMouseLimon = (Button)findViewById(R.id.bHeladoFresa);
     }
 
     //----------------------------------------------------------------------------------------------
@@ -47,7 +55,7 @@ public class Activity24Postres extends AppCompatActivity {
     }
     public void cambioPantallaUbicacion(View vista) {
 
-        Intent siguiente = new Intent(this, Activity4Ubicacion.class);
+        Intent siguiente = new Intent(this, ActivityMaps.class);
 
         startActivity(siguiente);
     }
@@ -127,5 +135,42 @@ public class Activity24Postres extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+    //AÑADIR AL CARRITO
+    public String pedidoPostres= "";
+    public void addCarritoHeladoFresa(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("HeladoFresa", pedidoPostres +"\nHelado de fresa ........................... 3.50€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoFlanQueso(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("FlanQueso", pedidoPostres +"\nFlan de queso ............................... 3€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoTartaZanahoria(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("TartaZanahoria", pedidoPostres +"\nTarta de zanahoria ....................... 4€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoSandia(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("Sandia", pedidoPostres +"\nSandia ........................................... 3.50€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
+    }
+    public void addCarritoMousseLimon(View view){
+        SharedPreferences datosMenus = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editorMenu = datosMenus.edit();
+        editorMenu.putString("MousseLimon", pedidoPostres +"\nMousse de limon ......................... 4€");
+        editorMenu.apply();
+        Toast.makeText(this,"Añadido al carrito", Toast.LENGTH_SHORT).show();
     }
 }
